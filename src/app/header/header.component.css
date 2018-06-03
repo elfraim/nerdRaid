@@ -10,37 +10,7 @@
   margin: 1px 1px;
 }
 
-#loginBtn {
-  color: white;
-  background-color: #93cc57;
-  box-shadow:  0px 6px 6px -8px black;
-  cursor: pointer;
-  border: none;
-  border-radius: 6px;
-  font-weight: bold;
-  -webkit-transition: all 0.3s ease;
-  -moz-transition: all 0.3s ease;
-  -ms-transition: all 0.3s ease;
-  transition: all 0.3s;
-  width: 100px;
-  font-size: 18px;
-}
-#loginBtn:hover {
-  background-color: #40914b !important;
-}
 
-#signup {
-  color: #7cb342;
-  text-shadow: 2px 2px 2px rgba(0,0,0,0.1);
-  -webkit-transition: all 0.3s ease;
-  -moz-transition: all 0.3s ease;
-  -ms-transition: all 0.3s ease;
-  transition: all 0.3s;
-}
-
-#signup:hover {
-  color: #40914b;
-}
 #activeNav {
   border-bottom: 2px solid#7cb342;
   background-color: inherit;
@@ -82,3 +52,7 @@
 margin-left: 5px;
 }
 
+#signup {
+  margin-top: 5px;
+  margin-right: 5px;
+}

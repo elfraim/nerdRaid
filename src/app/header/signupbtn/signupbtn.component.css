@@ -1,0 +1,15 @@
+#signup {
+  color: #7cb342;
+  text-shadow: 2px 2px 2px rgba(0,0,0,0.1);
+  -webkit-transition: all 0.3s ease;
+  -moz-transition: all 0.3s ease;
+  -ms-transition: all 0.3s ease;
+  transition: all 0.3s;
+  text-align: center;
+}
+
+#signup:hover {
+  color: #40914b;
+  font-style:  none;
+  text-decoration: none;
+}

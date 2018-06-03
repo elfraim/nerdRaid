@@ -1,5 +1,46 @@
 /* You can add global styles to this file, and also import other style files */
+
 body {
   font-family: sans-serif;
-  background-color: #c5e1a5;
+  background: linear-gradient(259deg, #aaf7cd, #9cd9f5);
+  background-size: 400% 400%;
+  -webkit-animation: AnimateBackground 10s ease infinite;
+  -moz-animation: AnimateBackground 10s ease infinite;
+  animation: AnimateBackground 10s ease infinite;
+}
+
+@-webkit-keyframes AnimateBackground {
+  0% {
+    background-position: 0% 54%
+  }
+  50% {
+    background-position: 100% 47%
+  }
+  100% {
+    background-position: 0% 54%
+  }
+}
+
+@-moz-keyframes AnimateBackground {
+  0% {
+    background-position: 0% 54%
+  }
+  50% {
+    background-position: 100% 47%
+  }
+  100% {
+    background-position: 0% 54%
+  }
+}
+
+@keyframes AnimateBackground {
+  0% {
+    background-position: 0% 54%
+  }
+  50% {
+    background-position: 100% 47%
+  }
+  100% {
+    background-position: 0% 54%
+  }
 }

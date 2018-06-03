@@ -1,8 +1,8 @@
 <div class="main-div">
   <p id="mainText">Where nerds come to {{ nerdsComeTo }}</p>
   <p id="text">Meet the blog that will help your inner Nerd come to life</p>
-  <input type="text" class="form-control" id="input" placeholder="Enter your email..">
-  <button type="button" class="btn btn-primary" id="button">Get Started</button>
+  <input (input)="emailChange($event)" name="inputedEmail" type="text" class="form-control" id="input" placeholder="Enter your email.." />
+  <button type="button" class="btn btn-primary" id="button" (click)="getStarted()">Get Started</button>
   <p id="footerText"> Sign up with <span id="fb">facebook</span></p>
-  <img src="../../../assets/wolverien.png" alt="wolverein" id="image">
+  <img src="{{ nerdPicture }}" alt="wolverein" id="image">
 </div>
