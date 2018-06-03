@@ -41,8 +41,8 @@
 
 .laptopPic {
   align-self: center;
-  justify-self: center;
-  margin-left: 12%;
+  justify-self: start;
+  margin-left: 15%;
   height: 170px;
 }
 
@@ -57,4 +57,11 @@
   justify-self: center;
   margin-left: 15%;
   height: 165px;
+}
+
+.btn {
+  -webkit-transition: all 0.3s ease;
+  -moz-transition: all 0.3s ease;
+  -ms-transition: all 0.3s ease;
+  transition: all 0.3s;
 }
