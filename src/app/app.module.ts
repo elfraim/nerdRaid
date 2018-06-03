@@ -8,6 +8,7 @@ import { HeaderContentComponent } from './header/header-content/header-content.c
 import { MainContentComponent } from './main-content/main-content.component';
 import { LoginbtnComponent } from './header/loginbtn/loginbtn.component';
 import { SignupbtnComponent } from './header/signupbtn/signupbtn.component';
+import { SecondContentComponent } from './main-content/second-content/second-content.component';
 
 @NgModule({
   declarations: [
@@ -16,7 +17,8 @@ import { SignupbtnComponent } from './header/signupbtn/signupbtn.component';
     HeaderContentComponent,
     MainContentComponent,
     LoginbtnComponent,
-    SignupbtnComponent
+    SignupbtnComponent,
+    SecondContentComponent
   ],
   imports: [
     BrowserModule,

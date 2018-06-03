@@ -1,0 +1,60 @@
+.main-content {
+  background-color: rgb(247, 255, 248);
+  height: 100%;
+  width: 100%;
+  display: grid;
+  grid-template: 1fr 1fr 150px 1fr 1fr 1fr 1fr 1fr / repeat(8, 1fr);
+  font-family: 'Sunflower', sans-serif;
+  border-top: 1px solid rgb(233, 233, 233);
+}
+
+.firstTitle {
+  grid-column: 3/7;
+  justify-self: center;
+  align-self: end;
+}
+
+.secondTitle {
+  grid-column: 2/8;
+  grid-row: 2/3;
+  justify-self: center;
+  align-self: start;
+}
+
+.cardOne {
+  grid-column: 2/4;
+  grid-row: 3/4;
+  padding: 15px 15px;
+}
+
+.shopPic {
+  align-self: center;
+  justify-self: center;
+  margin-left: 10%;
+}
+
+.cardTwo {
+  grid-column: 4/6;
+  grid-row: 3/4;
+  padding: 5px 5px;
+}
+
+.laptopPic {
+  align-self: center;
+  justify-self: center;
+  margin-left: 12%;
+  height: 170px;
+}
+
+.cardThree {
+  grid-column: 6/8;
+  grid-row: 3/4;
+  padding: 8px 8px;
+}
+
+.lockPic {
+  align-self: center;
+  justify-self: center;
+  margin-left: 15%;
+  height: 165px;
+}
