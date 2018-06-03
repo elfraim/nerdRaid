@@ -1,13 +1,42 @@
 <nav class="navbar navbar-default">
   <div class="container-fluid">
     <div class="navbar-header">
+      <!-- burger nav btn -->
       <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" aria-expanded="false">
         <span class="sr-only">Toggle navigation</span>
         <span class="icon-bar"></span>
         <span class="icon-bar"></span>
         <span class="icon-bar"></span>
       </button>
-      <a href="#" class="navbar-brand">BRAND</a>
+      <a href="#" class="navbar-brand" id="brand">Nerdraid</a>
+    </div>
+
+    <!-- Collapseable nav -->
+    <div class="collapse navbar-collapse">
+      <ul class="nav navbar-nav" id="navbarMain">
+        <li class="active" ><a href="#" id="activeNav">Connect</a></li>
+        <li><a href="#" id="textHov">Blog</a></li>
+        <li><a href="#" id="textHov">Learn</a></li>
+        <li><a href="#" id="textHov">About</a></li>
+        <li class="dropdown">
+          <a href="#"
+            class="dropdown-toggle"
+            role="button"
+            id="textHov"
+            data-toggle="dropdown"
+            aria-expanded="false"
+            aria-haspopup="true">Discover<span class="caret"></span></a>
+            <ul class="dropdown-menu">
+              <li><a href="#">Action</a></li>
+              <li><a href="#">Action 2</a></li>
+              <li><a href="#">Action 3</a></li>
+            </ul>
+        </li>
+      </ul>
+      <ul class="nav navbar-nav navbar-right">
+        <li><a href="#" id="signup">Signup <span style="color: rgb(27, 27, 27)">or</span></a></li>
+        <li><a class="btn btn-success" id="loginBtn">Login</a></li>
+      </ul>
     </div>
   </div>
 </nav>

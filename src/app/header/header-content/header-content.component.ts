@@ -6,6 +6,7 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./header-content.component.css']
 })
 export class HeaderContentComponent implements OnInit {
+  nerdsComeTo = 'Share';
 
   constructor() { }
 
