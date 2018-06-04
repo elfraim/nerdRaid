@@ -1,3 +1,4 @@
+
 #signup {
   color: #7cb342;
   text-shadow: 2px 2px 2px rgba(0,0,0,0.1);
@@ -12,4 +13,10 @@
   color: #40914b;
   font-style:  none;
   text-decoration: none;
+}
+
+#fireBase {
+  position: relative;
+  font-size: 10px;
+  margin-bottom: 1000px;
 }

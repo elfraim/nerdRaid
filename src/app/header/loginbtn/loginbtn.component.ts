@@ -6,6 +6,7 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./loginbtn.component.css']
 })
 export class LoginbtnComponent implements OnInit {
+  showGoogle = false;
 
   constructor() { }
 

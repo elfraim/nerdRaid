@@ -1,1 +1,6 @@
-<a href="#" id="signup">Signup <span style="color: rgb(27, 27, 27)">or</span></a>
+<div id="main-content">
+  <a href="#" id="signup" *ngIf="!showGoogle" (click)="showGoogle = true">Signup
+    <span style="color: rgb(27, 27, 27)">or</span>
+  </a>
+  <firebase-ui *ngIf="showGoogle" id="fireBase"></firebase-ui>
+</div>

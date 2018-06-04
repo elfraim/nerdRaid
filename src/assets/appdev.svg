@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg width="98px" height="102px" viewBox="0 0 98 102" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 39.1 (31720) - http://www.bohemiancoding.com/sketch -->
+    <title>distribution</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <rect id="path-1" x="14" y="0" width="69" height="88" rx="8"></rect>
+        <mask id="mask-2" maskContentUnits="userSpaceOnUse" maskUnits="objectBoundingBox" x="0" y="0" width="69" height="88" fill="white">
+            <use xlink:href="#path-1"></use>
+        </mask>
+        <rect id="path-3" x="20" y="7" width="57" height="68" rx="3"></rect>
+        <mask id="mask-4" maskContentUnits="userSpaceOnUse" maskUnits="objectBoundingBox" x="0" y="0" width="57" height="68" fill="white">
+            <use xlink:href="#path-3"></use>
+        </mask>
+        <rect id="path-5" x="46" y="77" width="5" height="5.5" rx="2.5"></rect>
+        <mask id="mask-6" maskContentUnits="userSpaceOnUse" maskUnits="objectBoundingBox" x="0" y="0" width="5" height="5.5" fill="white">
+            <use xlink:href="#path-5"></use>
+        </mask>
+    </defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Reedsy-learning" transform="translate(-1015.000000, -593.000000)">
+            <g id="distribution" transform="translate(1015.000000, 593.000000)">
+                <path d="M49,102 C76.0619527,102 98,94.9340155 98,88.9090909 C98,82.8841664 76.0619527,78 49,78 C21.9380473,78 0,82.8841664 0,88.9090909 C0,94.9340155 21.9380473,102 49,102 Z" id="Oval-5-Copy-6" fill="#273034"></path>
+                <use id="Rectangle-6" stroke="#273034" mask="url(#mask-2)" stroke-width="2.97972605" fill="#F8D762" xlink:href="#path-1"></use>
+                <use id="Rectangle-6-Copy" stroke="#273034" mask="url(#mask-4)" stroke-width="2.97972605" fill="#FFFFFF" xlink:href="#path-3"></use>
+                <path d="M27,16.5 C27,15.6715729 27.6767311,15 28.4948022,15 L67.5051978,15 C68.3307542,15 69,15.6657972 69,16.5 C69,17.3284271 68.3232689,18 67.5051978,18 L28.4948022,18 C27.6692458,18 27,17.3342028 27,16.5 Z M27,22.5 C27,21.6715729 27.6767311,21 28.4948022,21 L67.5051978,21 C68.3307542,21 69,21.6657972 69,22.5 C69,23.3284271 68.3232689,24 67.5051978,24 L28.4948022,24 C27.6692458,24 27,23.3342028 27,22.5 Z M27,28.5 C27,27.6715729 27.6767311,27 28.4948022,27 L67.5051978,27 C68.3307542,27 69,27.6657972 69,28.5 C69,29.3284271 68.3232689,30 67.5051978,30 L28.4948022,30 C27.6692458,30 27,29.3342028 27,28.5 Z M27,34.5 C27,33.6715729 27.6767311,33 28.4948022,33 L67.5051978,33 C68.3307542,33 69,33.6657972 69,34.5 C69,35.3284271 68.3232689,36 67.5051978,36 L28.4948022,36 C27.6692458,36 27,35.3342028 27,34.5 Z M27,40.5 C27,39.6715729 27.6767311,39 28.4948022,39 L67.5051978,39 C68.3307542,39 69,39.6657972 69,40.5 C69,41.3284271 68.3232689,42 67.5051978,42 L28.4948022,42 C27.6692458,42 27,41.3342028 27,40.5 Z M27,46.5 C27,45.6715729 27.6767311,45 28.4948022,45 L67.5051978,45 C68.3307542,45 69,45.6657972 69,46.5 C69,47.3284271 68.3232689,48 67.5051978,48 L28.4948022,48 C27.6692458,48 27,47.3342028 27,46.5 Z M27,52.5 C27,51.6715729 27.6767311,51 28.4948022,51 L67.5051978,51 C68.3307542,51 69,51.6657972 69,52.5 C69,53.3284271 68.3232689,54 67.5051978,54 L28.4948022,54 C27.6692458,54 27,53.3342028 27,52.5 Z M27,58.5 C27,57.6715729 27.6767311,57 28.4948022,57 L67.5051978,57 C68.3307542,57 69,57.6657972 69,58.5 C69,59.3284271 68.3232689,60 67.5051978,60 L28.4948022,60 C27.6692458,60 27,59.3342028 27,58.5 Z M27,64.5 C27,63.6715729 27.6767311,63 28.4948022,63 L67.5051978,63 C68.3307542,63 69,63.6657972 69,64.5 C69,65.3284271 68.3232689,66 67.5051978,66 L28.4948022,66 C27.6692458,66 27,65.3342028 27,64.5 Z" id="Combined-Shape" fill="#E5E5E5"></path>
+                <use id="Rectangle-6-Copy-2" stroke="#273034" mask="url(#mask-6)" stroke-width="2.97972605" fill="#FFFFFF" xlink:href="#path-5"></use>
+            </g>
+        </g>
+    </g>
+</svg>
