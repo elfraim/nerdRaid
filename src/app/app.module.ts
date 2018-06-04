@@ -33,6 +33,7 @@ import { SecondContentComponent } from './main-content/second-content/second-con
 import {NgbModule} from '@ng-bootstrap/ng-bootstrap';
 import { MainLearnComponent } from './main-learn/main-learn.component';
 import { HomeComponent } from './home/home.component';
+import { LearnFirstContentComponent } from './main-learn/learn-first-content/learn-first-content.component';
 
 const firebaseUiAuthConfig: FirebaseUIAuthConfig = {
   providers: [
@@ -59,6 +60,7 @@ const firebaseUiAuthConfig: FirebaseUIAuthConfig = {
     SecondContentComponent,
     MainLearnComponent,
     HomeComponent,
+    LearnFirstContentComponent,
   ],
   imports: [
     BrowserModule,
