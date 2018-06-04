@@ -34,6 +34,8 @@ import {NgbModule} from '@ng-bootstrap/ng-bootstrap';
 import { MainLearnComponent } from './main-learn/main-learn.component';
 import { HomeComponent } from './home/home.component';
 import { LearnFirstContentComponent } from './main-learn/learn-first-content/learn-first-content.component';
+import { FooterComponent } from './footer/footer.component';
+import { BlogComponent } from './blog/blog.component';
 
 const firebaseUiAuthConfig: FirebaseUIAuthConfig = {
   providers: [
@@ -61,6 +63,8 @@ const firebaseUiAuthConfig: FirebaseUIAuthConfig = {
     MainLearnComponent,
     HomeComponent,
     LearnFirstContentComponent,
+    FooterComponent,
+    BlogComponent,
   ],
   imports: [
     BrowserModule,

@@ -3,7 +3,7 @@
   height: 100%;
   width: 100%;
   display: grid;
-  grid-template: 1fr 1fr 150px 1fr 1fr 1fr 1fr 1fr / repeat(8, 1fr);
+  grid-template: 1fr 1fr 150px 1fr 1fr 0.5fr / repeat(8, 1fr);
   font-family: 'Sunflower', sans-serif;
   border-top: 1px solid rgb(233, 233, 233);
 }

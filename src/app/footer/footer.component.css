@@ -1,0 +1,89 @@
+#main-content {
+  display: grid;
+  grid-template: repeat(3, 0.5fr) / repeat(3, 1fr);
+  background-color: rgb(53, 53, 53);
+  font-family: 'Sunflower';
+}
+
+#brand {
+  grid-row: 2/3;
+  grid-column: 1/2;
+  font-size: 35px;
+  color: gray;
+  font-family: 'Poor story';
+  justify-self: center;
+}
+
+#copywrite {
+  color: gray;
+  grid-row: 2/3;
+  grid-column: 1/2;
+  font-family: 'Sunflower';
+  justify-self: center;
+  position: relative;
+  align-self: end;
+}
+
+#contact {
+  color: gray;
+  grid-row: 2/3;
+  grid-column: 2/3;
+  justify-self: center;
+}
+
+.vertical-divider {
+  position: absolute;
+  left: 33%;
+  content: '';
+  z-index: 9;
+  border-left: 1px solid rgba(34,36,38,.15);
+  border-right: 1px solid rgba(255,255,255,.1);
+  width: 0;
+  height: 13em;
+}
+
+.vertical-divider2 {
+  position: absolute;
+  left: 66%;
+  content: '';
+  z-index: 9;
+  border-left: 1px solid rgba(34,36,38,.15);
+  border-right: 1px solid rgba(255,255,255,.1);
+  width: 0;
+  height: 13em;
+}
+
+#nav {
+  grid-row: 1/4;
+  grid-column: 3/4;
+  justify-self: center;
+  align-self: center;
+  display: block;
+  text-decoration: none;
+  color: gray;
+  font-weight: 800;
+}
+
+#scroll {
+  margin-top: 2%;
+  background-color: inherit;
+  border: 2px solid rgb(99, 232, 250);
+  border-radius: 50px;
+  color: rgb(99, 232, 250);
+  font-size: 45px;
+  width: 50px;
+  height: 50px;
+}
+
+#scroll:active {
+  text-decoration: none;
+  outline: none;
+}
+#scroll:focus {
+  text-decoration: none;
+  outline: none;
+}
+
+#scroll:hover {
+  color: white;
+}
