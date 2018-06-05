@@ -62,39 +62,22 @@
                 <div class="card-body">
                   <form>
                     <div class="form-group">
-                      <textarea class="form-control" rows="3"></textarea>
+                      <textarea class="form-control" rows="2" name="commentText" [(ngModel)]="commentText"></textarea>
                     </div>
-                    <button type="submit" class="btn btn-primary">Submit</button>
+                    <button type="submit" class="btn btn-primary" (click)="submitComment()" style="margin-bottom: 1%">Submit</button>
                   </form>
                 </div>
               </div>
 
               <!-- Single Comment -->
-              <div class="media mb-4">
-                <img class="d-flex mr-3 rounded-circle" src="http://placehold.it/50x50" alt="">
-                <div class="media-body">
-                  <h5 class="mt-0">Test</h5>
-                  Testing testing a lot of testing just text here.
-                </div>
-              </div>
-
-              <!-- Comment with nested comments -->
-              <div class="media mb-4" id="comments">
-                <img class="d-flex mr-3 rounded-circle" src="http://placehold.it/50x50" alt="">
-                <div class="media-body">
-                  <h5 class="mt-0">Mr Test</h5>
-                  Testing testing a lot of testing just text here.
-
-                  <div class="media mt-4">
-                    <img class="d-flex mr-3 rounded-circle" src="http://placehold.it/50x50" alt="">
-                    <div class="media-body">
-                      <h5 class="mt-0">Mr tester</h5>
-                      Testing testing a lot of testing just text here.
-                    </div>
+                <div *ngFor="let user of users" class="media mb-4" id="comments">
+                  <img class="d-flex mr-3 rounded-circle" src={{user.picture}} alt="" id="userCommentPicture">
+                  <div class="media-body">
+                    <h5 class="mt-0" style="font-weight: 900;">{{user.name}}</h5>
+                    {{user.text}}
                   </div>
                 </div>
               </div>
-            </div>
 
             <!-- Sidebar Widgets Column -->
             <div class="col-md-4">
