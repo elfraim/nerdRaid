@@ -27,6 +27,18 @@
         </div>
 
         <!-- After click on image -->
+        <div *ngIf="showDefault === true" class="collapseText">
+            <div>
+                <h3>Looking for Freelance Web Developers?</h3>
+                <p>Finding quality freelancers might be difficult,
+                but there are ways to locate quality developers and designers.
+                If your only experience has been digging through sites such as Fiverr (nothing personal!),
+                you’re probably not going to come across the very best hires.</p>
+            </div>
+            <button type="button" class="btn btn-success" id="button" (click)="getStarted()">Get Started</button>
+          </div>
+          <img src="../../assets/developer.png" *ngIf="showDefault === true" class="divPicsDeveloper"/>
+
         <div *ngIf="showWebDevDiv === true" class="collapseText">
             <div>
                 <h3>Looking for Freelance Web Developers?</h3>

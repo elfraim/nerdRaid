@@ -3,7 +3,6 @@
   padding: 10px 10px;
   background-color: inherit;
   border-style: none;
-  color: rgb(27, 27, 27);
   font-size: 19px;
   font-family: 'Sunflower', sans-serif;
   font-weight: 500;
@@ -14,14 +13,18 @@
 #activeNav {
   border-bottom: 2px solid#7cb342;
   background-color: inherit;
+  color: white;
+  text-shadow: 1px 2px rgba(0, 0, 0, 0.158);
 }
 
 #textHov {
   margin-left: 5px;
-  -webkit-transition: all 0.2s ease;
-  -moz-transition: all 0.2s ease;
-  -ms-transition: all 0.2s ease;
-  transition: all 0.2s;
+  -webkit-transition: all 0.3s ease;
+  -moz-transition: all 0.3s ease;
+  -ms-transition: all 0.3s ease;
+  transition: all 0.3s;
+  color:white;
+  text-shadow: 1px 2px rgba(0, 0, 0, 0.158);
 }
 
 #textHov:hover {
@@ -39,11 +42,11 @@
   -ms-transition: all 0.2s ease-in-out;
   transition: all 0.2s;
   transition-delay: 0.1s;
-  color: #314e0f;
+  color: #ffffff;
 }
 
 #brand:hover {
-  background: -webkit-linear-gradient(#c5e1a5, #314e0f);
+  background: -webkit-linear-gradient(#91d5f5, #ffffff);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }
@@ -55,4 +58,8 @@ margin-left: 5px;
 #signup {
   margin-top: 5px;
   margin-right: 5px;
+}
+
+#navText {
+  color: white;
 }

@@ -8,87 +8,88 @@
 
 <!-- If database was fully connected these would point to database details -->
 <div id="blog">
-        <!-- Page Content -->
-        <div class="container">
+  <!-- Page Content -->
+  <div class="container">
 
-          <div class="row">
+    <div class="row">
 
-            <!-- Post Content Column -->
-            <div class="col-lg-8">
+      <!-- Post Content Column -->
+      <div class="col-lg-8">
 
-              <!-- Title -->
-              <h1 class="mt-4">How to: Impress the CEO</h1>
+        <!-- Title -->
+        <h1 class="mt-4">How to: Impress the CEO</h1>
 
-              <!-- Author -->
-              <p class="lead">
-                by
-                <a href="/blog">Elan Fraiman</a>
-              </p>
+        <!-- Author -->
+        <p class="lead">
+          by
+          <a href="/blog">Elan Fraiman</a>
+        </p>
 
-              <hr>
+        <hr>
 
-              <!-- Date/Time -->
-              <p>Posted on June 4, 2018 at 1:21 AM</p>
+        <!-- Date/Time -->
+        <p>Posted on June 4, 2018 at 1:21 AM</p>
 
-              <hr>
+        <hr>
 
-              <!-- Preview Image -->
-              <img class="img-fluid rounded" src="../../assets/ceo.jpg" alt="" id="ceoImage">
+        <!-- Preview Image -->
+        <img class="img-fluid rounded" src="../../assets/ceo.jpg" alt="" id="ceoImage">
 
-              <hr>
+        <hr>
 
-              <!-- Post Content -->
-              <p class="lead">You got to the interview. Cool. But now what? 3 Tips to make sure the CEO can't look past you.</p>
+        <!-- Post Content, Static post at the moment, no database connected-->
+        <p class="lead">You got to the interview. Cool. But now what? 3 Tips to make sure the CEO can't look past you.</p>
 
-              <p>1. Give the guy some sunlight. He's cold blooded so he starts his day with some warming-up. Dont stare, just keep walking while casually saying "Hi"</p>
+        <p>1. Give the guy some sunlight. He's cold blooded so he starts his day with some warming-up. Dont stare, just keep
+          walking while casually saying "Hi"</p>
 
-              <p>2. Food. He wants food. Everything you dont want, he wants it. Unless you're vegan, than you might need to share. Cockroaches, ants, crickets and maybe some plants. </p>
+        <p>2. Food. He wants food. Everything you dont want, he wants it. Unless you're vegan, than you might need to share.
+          Cockroaches, ants, crickets and maybe some plants. </p>
 
-              <blockquote class="blockquote">
-                <p class="mb-0">“He viewed us, as we passed him by,
-                  With calm and yet with questioning eye,
-                  But moveless still, as though the stone
-                  Were portion of his being's own.” </p>
-                <footer class="blockquote-footer">Edward Robeson Taylor
-                  <cite title="Source Title">www.goodreads.com</cite>
-                </footer>
-              </blockquote>
-              <p>3. Don't compare your CEO to a Komodo Dragon. That's sensitive. You don't compare your girlfriend out loud with Angelina Jolie right? Nope. You get it. </p>
-              <hr>
+        <blockquote class="blockquote">
+          <p class="mb-0">“He viewed us, as we passed him by, With calm and yet with questioning eye, But moveless still, as though the stone
+            Were portion of his being's own.” </p>
+          <footer class="blockquote-footer">Edward Robeson Taylor
+            <cite title="Source Title">www.goodreads.com</cite>
+          </footer>
+        </blockquote>
+        <p>3. Don't compare your CEO to a Komodo Dragon. That's sensitive. You don't compare your girlfriend out loud with Angelina
+          Jolie right? Nope. You get it. </p>
+        <hr>
 
-              <!-- Comments Form -->
-              <div class="card my-4">
-                <h5 class="card-header">Leave a Comment:</h5>
-                <div class="card-body">
-                  <form>
-                    <div class="form-group">
-                      <textarea class="form-control" rows="2" name="commentText" [(ngModel)]="commentText"></textarea>
-                    </div>
-                    <button type="submit" class="btn btn-primary" (click)="submitComment()" style="margin-bottom: 1%">Submit</button>
-                  </form>
-                </div>
+        <!-- Comments Form -->
+        <div class="card my-4">
+          <h5 class="card-header">Leave a Comment:</h5>
+          <div class="card-body">
+            <form>
+              <div class="form-group">
+                <textarea class="form-control" rows="2" name="commentText" [(ngModel)]="commentText"></textarea>
               </div>
-
-              <!-- Single Comment -->
-                <div *ngFor="let user of users" class="media mb-4" id="comments">
-                  <img class="d-flex mr-3 rounded-circle" src={{user.picture}} alt="" id="userCommentPicture">
-                  <div class="media-body">
-                    <h5 class="mt-0" style="font-weight: 900;">{{user.name}}</h5>
-                    {{user.text}}
-                  </div>
-                </div>
-              </div>
-
-            <!-- Sidebar Widgets Column -->
-            <div class="col-md-4">
-              <!-- Side Widget -->
-              <div class="card my-4">
-                <h5 class="card-header">Side Widget</h5>
-                <div class="card-body">
-                  Testing side widget
-                </div>
-              </div>
-            </div>
+              <button type="submit" class="btn btn-primary" (click)="submitComment()" style="margin-bottom: 1%">Submit</button>
+            </form>
           </div>
         </div>
-<app-footer></app-footer>
+
+        <!-- Single Comment -->
+        <div *ngFor="let user of users" class="media mb-4" id="comments">
+          <img class="d-flex mr-3 rounded-circle" src={{user.picture}} alt="" id="userCommentPicture">
+          <div class="media-body">
+            <h5 class="mt-0" style="font-weight: 900;">{{user.name}}</h5>
+            {{user.text}}
+          </div>
+        </div>
+      </div>
+
+      <!-- Sidebar Widgets Column -->
+      <div class="col-md-4">
+        <!-- Side Widget -->
+        <div class="card my-4">
+          <h5 class="card-header">Side Widget</h5>
+          <div class="card-body">
+            Testing side widget
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <app-footer></app-footer>

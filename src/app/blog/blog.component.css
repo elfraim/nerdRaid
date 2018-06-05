@@ -15,10 +15,10 @@
 
 #main-content {
   display: grid;
-  grid-template: 0.3fr 0.6fr 1fr / 1fr 1fr 1fr 1fr 1fr;
+  grid-template: 0.3fr 0.6fr 0.7fr / 1fr 1fr 1fr 1fr 1fr;
   font-family: 'Sunflower';
   color: rgb(41, 41, 41);
-  background: linear-gradient(259deg, #ffffff, #cceaf8);
+  background: linear-gradient(259deg, #ffffff, #4d2655bd);
   background-size: 400% 400%;
   -webkit-animation: AnimateBackground 15s ease infinite;
   -moz-animation: AnimateBackground 15s ease infinite;

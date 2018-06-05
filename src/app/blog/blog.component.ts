@@ -6,8 +6,8 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./blog.component.css']
 })
 export class BlogComponent implements OnInit {
-  commentText: string = '';
-  users = [
+  commentText = '';
+  users = [ // Mock-up users data
     {
       id: 0,
       name: 'Jessica',
@@ -18,7 +18,7 @@ export class BlogComponent implements OnInit {
       id: 1,
       name: 'Mikey',
       picture: 'https://orig00.deviantart.net/8fb9/f/2016/068/b/0/deadpool_icon_by_goldennove-d9u06cn.gif',
-      text: 'Thats one badass CEO'
+      text: 'Is that a Komodo Dragon?'
     }
 
 ];
@@ -35,7 +35,7 @@ export class BlogComponent implements OnInit {
       id: 2, // would be user.id from database
       name: 'Elan', // user.name from database
       picture: 'https://orig00.deviantart.net/eb80/f/2011/297/a/e/free_avatar__ghost_by_tipleloop-d4dsfzo.gif', // etc
-      text: this.commentText // 2 way binding from the text-area
+      text: this.commentText // event binding from the text-area
     }) : alert('No text');
     this.commentText = '';
   }

@@ -1,4 +1,5 @@
 import { Component, OnInit } from '@angular/core';
+import { NumberFormatStyle } from '@angular/common';
 
 @Component({
   selector: 'app-main-content',
@@ -13,6 +14,7 @@ export class MainContentComponent implements OnInit {
   showTeachersDiv = false;
   showWebDevDiv = false;
   showDesignersDiv = false;
+  showDefault = true;
 
   constructor() { }
 
@@ -23,18 +25,21 @@ export class MainContentComponent implements OnInit {
     this.showTeachersDiv = true;
     this.showWebDevDiv = false;
     this.showDesignersDiv = false;
+    this.showDefault = false;
   }
 
   showWebDevText() {
     this.showWebDevDiv = true;
     this.showTeachersDiv = false;
     this.showDesignersDiv = false;
+    this.showDefault = false;
   }
 
   showDesignersText() {
     this.showDesignersDiv = true;
     this.showWebDevDiv = false;
     this.showTeachersDiv = false;
+    this.showDefault = false;
   }
 
   getStarted() {

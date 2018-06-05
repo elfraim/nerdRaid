@@ -1,12 +1,12 @@
 /* You can add global styles to this file, and also import other style files */
 @import '~firebaseui/dist/firebaseui.css';
 body {
-  font-family: sans-serif;
-  background: linear-gradient(259deg, #aaf7cd, #9cd9f5);
+  font-family: 'Sun flower', sans-serif;
+  background: linear-gradient(259deg, #4d2655, #73d3ff);
   background-size: 400% 400%;
-  -webkit-animation: AnimateBackground 10s ease infinite;
-  -moz-animation: AnimateBackground 10s ease infinite;
-  animation: AnimateBackground 10s ease infinite;
+  -webkit-animation: AnimateBackground 18s ease infinite;
+  -moz-animation: AnimateBackground 18s ease infinite;
+  animation: AnimateBackground 18s ease infinite;
 }
 
 @-webkit-keyframes AnimateBackground {
