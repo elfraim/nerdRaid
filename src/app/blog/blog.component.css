@@ -3,6 +3,10 @@
   background-color: white;
 }
 
+#ceoImage {
+  max-width: 750px;
+}
+
 @media (min-width: 992px) {
   #blog {
     padding-top: 56px;
@@ -154,4 +158,9 @@
   align-self: center;
   margin-left: 34%;
   cursor: pointer;
+}
+
+
+#comments {
+  margin-bottom: 5%;
 }
